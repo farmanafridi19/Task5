@@ -1,0 +1,217 @@
+@media (max-width:1050px){
+/*Header Section*/
+header {
+    width: 100%;
+    height: 15vh;
+}
+.header-section {
+    padding-top: 15px;
+}
+.logo {
+    border: 2px solid;
+    display: flex;
+    border: none;
+}
+.logo img {
+    width: 50px;
+}
+.search img{
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 8px;
+    border-radius: 5px;
+    left: -20px;
+}
+.search input{
+    height: 25px;
+    width: 300px;
+}
+.icon img {
+    width: 45px;
+}
+/*navbar-links styled*/
+.navbar-links {
+    width: 40%;
+    height: 40vh;
+}
+.navbar-links h2 {
+    width: 70%;
+}
+.navbar-links a {
+    margin:auto 63px;
+}
+/*navbar-img styled*/
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
+/*Smart Phones section styled*/
+h2 {
+    margin-top: 20px;
+}
+.smart-phone {
+    flex-wrap: wrap;
+}
+.smart-phone .mobiles {
+    width: 49%;
+}
+.smart-phone .mobiles img {
+    width: 40%;
+    height: 150px;
+}
+.mobiles span p {
+    font-size: large;
+}
+/*Laptop Responsive Laptop Section Styled*/
+.laptops-section {
+    flex-wrap: wrap;
+}
+.laptops-section .laptop-images {
+    width: 50%;
+}
+.laptop-images img {
+    width: 80%;
+}
+.laptop-images p {
+    position: relative;   
+    bottom: 30px;
+}
+/*Smart Watches Section*/
+.smart-watches {
+ flex-wrap: wrap;
+}
+.watches {
+    width: 350px;
+    height: 27vh;
+    background-size: cover;
+    margin: 10px auto;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+.watches img {
+    width: 150px;
+    height: 25vh;
+}
+.watches p {
+    float: right;
+}
+}
+/*Small Screen */
+@media (max-width:655px) {
+    /*navbar-links styled*/
+.navbar-links {
+    width: 40%;
+    height: 40vh;
+}
+.navbar-links h2 {
+    width: 90%;
+}
+.navbar-links a {
+    margin:auto 23px;
+}
+/*navbar-img styled*/
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
+}
+@media (max-width:490px) {
+    header {
+        width: 100%;
+        height: 15vh;
+        background-color: blueviolet;
+    }
+    .header-section {
+        height: 12vh;   
+    }
+    .logo img {
+        width: 50px;
+    }
+    .search img{
+        width: 25px;
+        background-color: white;
+        position: relative;
+        top: 8px;
+        left: -20px;
+    }
+    .search input{
+        width: 200px;
+        height: 25px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    .icon img {
+        width: 30px;
+        height: auto;
+    }
+/*navbar-links styled*/
+.navbar-section {
+    width: 100%;
+    height: 20vh;
+    margin-top: 15px;
+}
+    .navbar-links {
+        width: 40%;
+        height: 35vh;
+    }
+    .navbar-links h2 {
+        width: 100%;
+    }
+    .navbar-links a {
+        margin:auto 23px;
+    }
+    /*navbar-img styled*/
+    .navbar-img img {
+        width: 100%;
+        height: 35vh;
+    }
+    #smart-phone{
+        margin-top: 120px;
+    }
+    .smart-phone {
+        margin-bottom: 20px;
+    }
+/*Mobile Screen*/
+.smart-phone {
+    flex-direction: column;
+}
+.smart-phone .mobiles {
+    width: 100%;
+    justify-content: center;
+}
+.smart-phone .mobiles img {
+    width: 50%;
+    height: auto;
+}
+.mobiles span p {
+    font-size: large;
+}
+/*Laptop Responsive Laptop Section Styled*/
+.laptops-section {
+    flex-direction: column;
+}
+.laptops-section .laptop-images {
+    width: 100%;
+}
+.laptop-images img {
+    width: 80%;
+}
+.laptop-images p {
+    position: relative;   
+    bottom: 30px;
+}
+}
+@media (max-width: 435px) { 
+    .navbar-links h2 {
+        width: 100%;
+        font-size: 20px;
+    }   
+    .navbar-links a {
+        text-decoration: none;
+        line-height: 1;
+        margin:auto 5px;
+        color: black;
+    }
+}

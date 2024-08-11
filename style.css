@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(203, 226, 226);
+}
+/*Header Section*/
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: blueviolet;
+}
+.header-section {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    border: 2px solid;
+    display: flex;
+    border: none;
+}
+.logo span {
+    color: white;
+}
+.logo img {
+    width: 50px;
+}
+.search img{
+    /* border: 2px solid red; */
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 8px;
+    left: -20px;
+}
+.search input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.icon img {
+    width: 20px;
+    height: auto;
+}
+/*Navbar Section*/
+.navbar-section {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+/*navbar-links styled*/
+.navbar-links {
+    width: 20%;
+    height: 40vh;
+    padding-top: 17px;
+    background-color: rgb(254, 250, 250);
+}
+.navbar-links h2 {
+    width: 70%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links a {
+    text-decoration: none;
+    line-height: 2;
+    margin:auto 43px;
+    color: black;
+}
+.navbar-links a:hover {
+    background-color: rgb(74, 57, 57);
+    color: white;
+    padding: auto 12px;
+    border-radius: 5px;
+}
+/*navbar-img styled*/
+.navbar-img {
+    width: 75%;
+    height: 40vh;
+}
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
+/*Smart Phones section styled*/
+h2 {
+    margin-top: 40px;
+}
+.smart-phone {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.smart-phone .mobiles {
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin: 10px 0;
+}
+.smart-phone .mobiles img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: transparent;
+}
+.mobiles span p {
+    padding: 3px;
+    font-size: small;
+}
+.mobiles p:first-child {
+    font-weight: bold;
+}
+/*Laptop Section Styled*/
+.laptops-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.laptop-images {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.laptop-images img {
+    width: 250px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.laptop-images p {
+    position: relative;   
+    bottom: 22px;
+}
+/*Smart Watches Section*/
+.smart-watches {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.watches {
+    width: 400px;
+    height: 30vh;
+    background-size: cover;
+    margin: 10px auto;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+.watches img {
+    width: 200px;
+    height: 30vh;
+}
+.watches p {
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    color: blueviolet;
+}
+/*Footer Styled*/
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 215, 226);
+}
+footer div img {
+    width: 50px;
+    height: 7vh;
+}
+footer div p {
+    text-align: center;
+}
